@@ -31,8 +31,8 @@ CREATE TABLE Payment (
 INSERT INTO Payment(GiverID, RecipientID, Amount, TIMESTAMP, Description)
 	VALUES 
 	(1, 5, 100, DATE(), 'Lunch'),
-	(4, 2, 20, DATE(), 'Snack');
-    (2, 6, 500, DATE(), 'Booty')
+	(4, 2, 20, DATE(), 'Snack')
+    (2, 6, 500, DATE(), 'Booty');
 
 
 CREATE TABLE Job (
