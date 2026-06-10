@@ -1,0 +1,48 @@
+CREATE table Person (
+    PersonID INTEGER PRIMARY KEY,
+    Firstname TEXT,
+    Lastname TEXT,
+    Username TEXT,
+    Password TEXT,
+    JobID INTEGER
+);
+              
+INSERT INTO Person 
+        (Firstname, Lastname, Username, Password, JobID)
+    VALUES
+        ('Oliver', 'Anderson', 'andersono', 'potato3', 1),
+        ('Hayley', 'Banks', 'banksh', 'banana2', 2),
+        ('Danny', 'Broster', 'brosterd', 'chip2', 2),
+        ('Zulkifl', 'Khan', 'khanz', 'kiwi8', 3),
+        ('Matthew', 'Musk', 'muskm', 'apple1', 1),
+        ('The', 'Bank', 'banker', 'secret', 4);
+
+CREATE TABLE Payment (
+    PaymentID INTEGER PRIMARY KEY,
+    GiverID INTEGER, 
+    RecipientID INTEGER, 
+    Amount INTEGER, 
+    Timestamp TEXT, 
+    Description TEXT
+);
+
+
+INSERT INTO Payment(GiverID, RecipientID, Amount, TIMESTAMP, Description)
+	VALUES 
+	(1, 5, 100, DATE(), 'Lunch'),
+	(4, 2, 20, DATE(), 'Snack');
+
+
+CREATE TABLE Job (
+    JobID INTEGER PRIMARY KEY,
+    Description TEXT,
+    Salary INTEGER
+);
+
+INSERT INTO Job
+        (JobID, Description, Salary)
+    VALUES
+        (1, 'Road Sweeper', 10),
+        (2, 'Pothole filler', 15),
+        (3, 'Manager', 20),
+        (4, 'Chancellor', 100);

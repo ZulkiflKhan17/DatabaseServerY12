@@ -12,4 +12,10 @@
     <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="10.0.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="initialdata.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
