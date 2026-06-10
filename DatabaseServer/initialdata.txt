@@ -47,4 +47,5 @@ INSERT INTO Job
         (1, 'Road Sweeper', 10),
         (2, 'Pothole filler', 15),
         (3, 'Manager', 20),
-        (4, 'Chancellor', 100);
+        (4, 'Chancellor', 100)
+        (5, 'Mayor', 150);
