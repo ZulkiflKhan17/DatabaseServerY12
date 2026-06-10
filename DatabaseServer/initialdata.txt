@@ -15,7 +15,7 @@ INSERT INTO Person
         ('Danny', 'Broster', 'brosterd', 'chip2', 2),
         ('Zulkifl', 'Khan', 'khanz', 'kiwi8', 3),
         ('Matthew', 'Musk', 'muskm', 'apple1', 1),
-        ('Jack', 'Sparrow', 'pirate, 'argh', 3)
+        ('Jack', 'Sparrow', 'pirate', 'argh', 3),
         ('The', 'Bank', 'banker', 'secret', 4);
 
 CREATE TABLE Payment (
@@ -34,9 +34,9 @@ INSERT INTO Payment(GiverID, RecipientID, Amount, TIMESTAMP, Description)
 	(4, 2, 20, DATE(), 'Snack'),
     (2, 6, 500, DATE(), 'Booty'),
     (1, 4, 20, DATE(), 'Donuts'),
-    (2, 1, 11, DATE(), 'Crisps')
-    (3, 7, 100, DATE(), 'Rent')
-    (7, 4, 400, DATE(), 'Loan')
+    (2, 1, 11, DATE(), 'Crisps'),
+    (3, 7, 100, DATE(), 'Rent'),
+    (7, 4, 400, DATE(), 'Loan');
 
 
 
