@@ -48,4 +48,9 @@ INSERT INTO Job
         (2, 'Pothole filler', 15),
         (3, 'Manager', 20),
         (4, 'Chancellor', 100)
-        (5, 'Mayor', 150);
+        (5, 'Mayor', 150)
+        (6, 'Security', 120)
+        (7, 'Army Officer', 170)
+        (8, 'Pilot', 200)
+        (9, 'Technician', 30)
+        (10, 'Influencer', 250);
