@@ -31,8 +31,13 @@ CREATE TABLE Payment (
 INSERT INTO Payment(GiverID, RecipientID, Amount, TIMESTAMP, Description)
 	VALUES 
 	(1, 5, 100, DATE(), 'Lunch'),
-	(4, 2, 20, DATE(), 'Snack')
-    (2, 6, 500, DATE(), 'Booty');
+	(4, 2, 20, DATE(), 'Snack'),
+    (2, 6, 500, DATE(), 'Booty'),
+    (1, 4, 20, DATE(), 'Donuts'),
+    (2, 1, 11, DATE(), 'Crisps')
+    (3, 7, 100, DATE(), 'Rent')
+    (7, 4, 400, DATE(), 'Loan')
+
 
 
 CREATE TABLE Job (
@@ -47,10 +52,10 @@ INSERT INTO Job
         (1, 'Road Sweeper', 10),
         (2, 'Pothole filler', 15),
         (3, 'Manager', 20),
-        (4, 'Chancellor', 100)
-        (5, 'Mayor', 150)
-        (6, 'Security', 120)
-        (7, 'Army Officer', 170)
-        (8, 'Pilot', 200)
-        (9, 'Technician', 30)
+        (4, 'Chancellor', 100),
+        (5, 'Mayor', 150),
+        (6, 'Security', 120),
+        (7, 'Army Officer', 170),
+        (8, 'Pilot', 200),
+        (9, 'Technician', 30),
         (10, 'Influencer', 250);
